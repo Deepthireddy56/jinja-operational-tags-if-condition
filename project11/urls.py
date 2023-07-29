@@ -19,5 +19,9 @@ from django.urls import path
 from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('data_render/',data_render,name="data_render")
+    path('data_render/',data_render,name="data_render"),
+    path('condition1/',condition1,name="condition1"),
+    path('condition2/',condition2,name="condition2"),
+    path('condition3/',condition3,name="condition3"),
+    path('condition4/',condition4,name="condition4")
 ]
